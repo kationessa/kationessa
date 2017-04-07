@@ -1,0 +1,1604 @@
+/*
+Theme Name: atmasfera
+Theme URI: http://wordpress.org/themes/atmasfera
+Author: the WordPress team
+Author URI: http://wordpress.org/
+Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: twentythirteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.html{
+     overflow:  hidden;
+}
+
+
+@font-face{
+    font-family: "Roboto-Light";
+    src: url("Fonts/Roboto-Light.ttf")
+}
+@font-face{
+    font-family: "Roboto-Medium";
+    src: url("Fonts/Roboto-Medium.ttf")
+}
+
+.item1:hover{
+    cursor: pointer;
+}
+.item1{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+margin: 0 5px;
+    border:1px solid #dbdfe9;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+   
+}
+.items-share{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 0;
+    margin-left:180px;
+}
+.items-shares{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 0;
+    margin-left:180px;
+}
+/*#myCarousel3{
+    margin-top: 120px;
+    font-family: "Roboto-Light";
+}*/
+.logo{
+   background: url("images/logo.png") center center no-repeat;
+    display: inline-block;
+
+   
+    height: 60px;
+  
+    margin:  5px auto;
+   
+}
+.item-cont{
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+}
+.item-conts{
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+}
+                     
+
+.navbar{
+    height: 120px;
+    background: #ffffff;
+}
+.navtop{
+    height: 70px;
+}
+
+.facebook{
+    background:url("images/socialdefolt/facebook.png") center center no-repeat;
+}
+.bandcamp{
+    background:url("images/socialdefolt/bandcamp.png") center center no-repeat;
+}
+.googleplay{
+  
+    background:url("images/socialdefolt/googleplay.png") center center no-repeat;
+    position: relative;
+    bottom: 2px;
+    left: 25px;
+}
+.itunes{
+    background:url("images/socialdefolt/itunes.png") center center no-repeat;
+}
+.vk{
+    background:url("images/socialdefolt/vk.png") center center no-repeat;
+}
+.twitter{
+    background:url("images/socialdefolt/twitter.png") center center no-repeat;
+}
+.youtube{
+    background:url("images/socialdefolt/youtube.png") center center no-repeat;
+}
+.livejournal{
+    background:url("images/socialdefolt/livejournal.png") center center no-repeat;
+}
+.myspace{
+    background:url("images/socialdefolt/myspace.png") center center no-repeat;
+}
+.soundcloud{
+    background:url("images/socialdefolt/soundcloud.png") center center no-repeat;
+}
+.rever{
+    background:url("images/socialdefolt/rever.png") center center no-repeat;
+}
+.google{
+    background:url("images/socialdefolt/google.png") center center no-repeat;
+}
+.insta{
+    background:url("images/socialdefolt/insta.png") center center no-repeat;
+}
+.facebook:hover{
+    background: url("images/socialhover/facebook.png") center center no-repeat;
+    box-shadow: 0px 0px 15px rgba(241,241,242,0.9);
+    border: 1px solid #ffffff;
+}
+.itunes:hover{
+    background: url("images/socialhover/itunes.png") center center no-repeat;
+    box-shadow: 0px 0px 15px rgba(241,241,242,0.9);
+    border: 1px solid #ffffff;
+}
+.bandcamp:hover{
+    background: url("images/socialhover/bandcamp.png") center center no-repeat;
+    box-shadow: 0px 0px 15px rgba(241,241,242,0.9);
+    border: 1px solid #ffffff;
+}
+.vk:hover{
+    background: url("images/socialhover/vk.png") center center no-repeat;
+    box-shadow: 0px 0px 15px rgba(241,241,242,0.9);
+    border: 1px solid #ffffff;
+}
+.twitter:hover{
+    background: url("images/socialhover/twitter.png") center center no-repeat;
+    box-shadow: 0px 0px 15px rgba(241,241,242,0.9);
+    border: 1px solid #ffffff;
+}
+.youtube:hover{
+    background: url("images/socialhover/youtube.png") center center no-repeat;
+    box-shadow: 0px 0px 15px rgba(241,241,242,0.9);
+    border: 1px solid #ffffff;
+}
+.livejournal:hover{
+    background: url("images/socialhover/livejournal.png") center center no-repeat;
+    box-shadow: 0px 0px 15px rgba(241,241,242,0.9);
+    border: 1px solid #ffffff;
+}
+.myspace:hover{
+    background: url("images/socialhover/myspace.png") center center no-repeat;
+    box-shadow: 0px 0px 15px rgba(241,241,242,0.9);
+    border: 1px solid #ffffff;
+}
+.soundcloud:hover{
+    background: url("images/socialhover/soundcloud.png") center center no-repeat;
+    box-shadow: 0px 0px 15px rgba(241,241,242,0.9);
+    border: 1px solid #ffffff;
+}
+.rever:hover{
+    background: url("images/socialhover/rever.png") center center no-repeat;
+    box-shadow: 0px 0px 15px rgba(241,241,242,0.9);
+    border: 1px solid #ffffff;
+}
+.googleplay:hover{
+    background: url("images/socialhover/googleplay1.png") center center no-repeat;
+    box-shadow: 0px 0px 15px rgba(241,241,242,0.9);
+   
+}
+.google:hover{
+    background: url("images/socialhover/google.png") center center no-repeat;
+    box-shadow: 0px 0px 15px rgba(241,241,242,0.9);
+    border: 1px solid #ffffff;
+}
+.insta:hover{
+    background: url("images/socialhover/insta.png") center center no-repeat;
+    box-shadow: 0px 0px 15px rgba(241,241,242,0.9);
+    border: 1px solid #ffffff;
+}
+
+.liked{
+    background: url("images/liked.png") center center no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: -5px;
+}
+.linea{
+    width: 100%;
+    height: 1px;
+    background-color: #d8dde7;
+    
+}
+
+
+.menu a  
+{
+    display: inline-block;
+    color: #c7ac7f;
+    text-align: center;
+    padding: 12px 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Cormorant Unicase', serif;
+    
+ 
+}
+.menu {
+position: relative;
+bottom: 40px;
+margin: 0 auto;
+justify-content: space-around;
+display: flex;
+    width: inherit;
+    
+}
+
+.navbar{
+    height: 120px;
+    background: #ffffff;
+}
+.navtop{
+    height: 70px;
+}
+
+.menu a:first-child{
+    padding-left: 0;
+}
+.navitem,
+.navitem:after,
+.navitem:before {
+  transition: all .5s;
+}
+
+.navitem{
+    position: relative;
+}
+.navitem:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+
+  background: #c7ac7f;
+  height: 3px;
+}
+ .navitem:hover:after {
+  width: 100%;
+}
+.firstslide{
+    background: url("images/image_for_slider_1_lg-md.jpg") center center no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.firstslide .text{
+    position: absolute;
+   
+    text-align: center;
+
+font-family: 'Cormorant Unicase', serif;
+    color: white;
+    margin: 0 auto;
+}
+.secondslide .text{
+    position: absolute;
+ 
+    text-align: center;
+  
+font-family: 'Cormorant Unicase', serif;
+    color: white;
+    margin: 0 auto;
+}
+.thirdslide .text{
+    position: absolute;
+   
+    text-align: center;
+
+font-family: 'Cormorant Unicase', serif;
+    color: white;
+    margin: 0 auto;
+}
+.text h1{
+    font-size: 50px;
+    color: white;
+}
+.text h3{
+    font-size: 15px;
+font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    display: inline-block;
+    
+}
+ .video a{
+      font-size: 15px;
+font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+.firstslide .video{
+    background: url(images/video.png) left center no-repeat;
+    width: 180px;
+    height: 40px;
+    position: relative;
+    left: 245px;
+}
+.secondslide .video{
+    background: url(images/video.png) left center no-repeat;
+    width: 180px;
+    height: 40px;
+    position: relative;
+    left: 205px;
+}
+.thirdslide .video{
+    background: url(images/video.png) left center no-repeat;
+    width: 180px;
+    height: 40px;
+    position: relative;
+    left: 325px;
+}
+.conc{
+    height: 560px;
+}
+
+.rozklad{
+    height: 150px;
+}
+.rozklad h2{
+       font-family: 'Cormorant Unicase', serif;
+    font-size: 35px;
+    font-weight: normal;
+    color: #494949;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    padding: 50px 0;
+}
+.rozklad a {
+ text-decoration:underline;
+    position: relative;
+    left: 1200px;
+    bottom:85px;
+    font-family: 'Roboto', sans-serif;
+    color: #9ac66b;
+}
+
+.number{
+    border: 1px solid #d8dde7;
+    width: 30px;
+    height: 30px;
+    border-radius:30px;
+  text-align: center;
+    vertical-align: middle;
+}
+.number p{
+    padding: 4px 7px;
+    width: 30px;
+}
+.conc-item{
+    height: 80px;
+
+    background: #ffffff;
+      box-sizing: border-box;
+        font-family: "Roboto-Light";
+    font-size: 14px;
+    cursor: pointer;
+ 
+}
+.month{
+  padding: 25px 15px;
+  padding-left: 55px;
+      display: inline-flex;
+    
+}
+.geo{
+
+    padding: 30px 15px;
+    
+    
+}
+.country{
+    margin-left: 30px;
+}
+.yearmonth {
+   padding-left: 10px;
+}
+.yearmonth p {
+   margin: 0;
+    box-sizing: border-box;
+    padding: 5px;
+    text-transform: capitalize;
+}
+.event p{
+      font-family: "Roboto-Medium";
+    font-size: 16px;
+
+    vertical-align: middle;
+    position: relative;
+    top:5px;
+}
+.event{
+    margin 0;
+    padding: 24px 0;
+    max-width: 291px;
+
+}
+.details{
+    width: 120px;
+    height: 30px;
+    border: 1px solid #d8dde7;
+    border-radius: 30px;
+    margin: 0;
+    padding: 20px 0 ;
+  
+}
+.details-conc{
+    padding: 18px 15px;
+}
+.details p{
+      font-family: "Roboto-Light";
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    bottom: 8px;
+}
+
+.some{
+    position: absolute;
+    left: 380px;
+    margin-left: 0;
+    right: 0;
+    height: 40px;    
+    top: 5px;
+   width: 801px;
+}
+a.some-for-a{
+  padding: 12px 15px;
+    font-size: 14px;
+}
+div.some-item{
+    display: none;
+}
+div.some-logo{
+    background: url(images/logo-scroll.png) bottom center no-repeat;
+    position: relative;
+    bottom: 25px;
+    right: 20px;
+    width: 200px;
+    
+}
+.navbar-scroll{
+    height: 50px;
+box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+    padding: 0;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.linea-scroll{
+    display: none;
+}
+.container-scroll{
+    margin-top: 0px;
+    
+  
+}
+.large{
+   width:  1280px;
+    margin: 0 auto;
+    
+    
+}
+.conc .linea{
+    width: 1280px;
+    margin: 0 auto;
+    position: relative;
+  
+}
+.conc-item:hover{
+    background-color: #f8f9f9;
+    
+}
+.details:hover{
+    color: #c7ac7f;
+    box-shadow: 0 4px 7px rgba(0,0,0,0.15);
+}
+.new{
+    height: 355px;
+/*    background: url(/images/image_for_subscribe.jpg) center center no-repeat ;*/
+    background-size: cover;
+    display: flex;
+    
+    
+}
+.news{
+    flex-basis: 50%;
+    box-sizing: border-box;
+    
+}
+.help{
+    flex-basis: 50%;
+    box-sizing: border-box;
+}
+
+.headn p{
+       font-family: 'Cormorant Unicase', serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white;
+    
+}
+.help .headn {
+    width: 460px;
+    position: relative;
+    top: 75px;
+    left: 90px;
+}
+.news .headn {
+ 
+    position: relative;
+    top: 75px;
+    left: 70px;
+}
+.news:hover,.help:hover{
+    background: rgba(0,0,0,0.2);
+    z-index: 999;
+}
+#area{
+    background: rgba(0,0,0,0);
+    width: 460px;
+    height: 40px;
+    
+    
+}
+input[type="text"]{
+       background: rgba(0,0,0,0);
+    width: 460px;
+    height: 40px;
+    z-index: -999;
+    border: 0px solid rgba(0,0,0,0);
+    border-bottom: 2px solid white;
+}
+
+input[placeholder]{
+    font-family: "Roboto-Light";
+    font-size: 16px;
+    color: white;
+}
+.area{
+    position: relative;
+   left: 70px;
+    top:110px;
+}
+.area input[type="submit"],.new button[type="button"]{
+    position: relative;
+    left: 70px;
+    top: 110px;
+    margin-top: 30px;
+    width: 155px;
+    height: 40px;
+    background: rgba(0,0,0,0);
+        border-radius:20px;
+    border-color:white;
+    color: white;
+}
+.help button[type="button"]{
+    position: relative;
+    left: 70px;
+    top: 110px;
+    margin-top: 30px;
+    width: 175px;
+    height: 40px;
+    background: rgba(0,0,0,0);
+        border-radius:20px;
+    border-color:white;
+    color: white;
+}
+#sos{
+        font-family: "Roboto-Light";
+    font-size: 15px;
+    color: white;
+    text-transform: none;
+    margin-top: 17px;
+}
+.help input{
+    position: relative;
+    top: 90px;
+    left: 90px;
+    width: 205px;
+}
+.new input[type="submit"]:hover{
+    background: white;
+    color: black;
+}
+.music{
+    height: 400px;
+}
+.live
+{
+height: 570px;   
+}
+.live header{
+    height: 70px;
+}
+#head p{
+    font-size: 35px;
+      font-family: 'Cormorant Unicase', serif;
+    text-transform: uppercase;
+    
+}
+#head{
+    text-align: center;
+}
+.all a {
+        font-family: "Roboto-Light";
+    font-size: 15px;
+    color: green;
+    text-decoration: underline;
+}
+.all{
+    padding-top: 20px;
+    text-align: right;
+}
+.all a {
+        font-family: "Roboto-Light";
+    font-size: 15px;
+    color: green;
+    text-decoration: underline;
+}
+.photo{
+  
+    flex-basis: 555px;
+    background: url(images/photo-desc.png) center center no-repeat;
+    box-shadow: 10px 20px 40px rgba(0,0,0,0.3);
+}
+.content-live {
+    display: flex;
+    height: 344px;
+    width: 100%;
+    position: relative;
+    top: 50px;
+    
+}
+.desc{
+flex-basis: 540px;
+position: relative;
+left: 45px;
+}
+.date{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #d8dde7;
+    display: inline-flex;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+.content-name h4{
+     color: #c7ac7f;
+    font-size: 24px;
+
+    font-family: "Roboto-Light";
+}
+.content-desc p{
+    font-size: 15px;
+  font-weight: bold;
+    font-family: "Roboto-Light";
+}
+.content-name{
+    margin-top: 25px;
+    margin-bottom: 20px;
+       width: 100%;
+}
+.content-desc{
+       width: 100%;
+    margin: 20px 0;
+}
+.hashteg{
+    height: 20px;
+  display: inline-block;
+    padding: 5px;
+    border: 1px solid #ebeef3;
+    border-radius: 10px;
+    vertical-align: middle;
+     font-size: 11px;
+
+    font-family: "Roboto-Light";
+}
+.hash{
+    display: inline-block;
+}
+.hashteg p {
+    position: relative;
+    bottom: 5px;
+}
+.hashteg:hover{
+    background: #ebeef3;
+    cursor: pointer;
+}
+footer{
+    height: 388px;
+}
+.manage {
+    display: inline-block;
+    background: #f1f3f3;
+    height: 310px;
+    margin: 0 auto;
+    width: 100%;
+}
+.manage h4{
+     color: #c7ac7f;
+    font-size: 24px;
+text-transform: uppercase;
+    font-family: "Roboto-Light";
+    font-weight: normal;
+}
+.manage-country{
+    margin-top: 50px;
+}
+h6{
+   font-family: "Roboto-Medium";
+    font-size: 16px;
+    font-weight: bold;
+}
+.manage-country p {
+       font-family: "Roboto-Light";
+    font-size: 14px;
+    color:#95a5a6;
+}
+.phone-number{
+    width: 190px;
+    height: 25px;
+    background: url(images/phone.png) left center no-repeat;
+    padding: 0 20px;
+    padding-top: 3px;
+}
+.phone-number p{
+    color: black;
+}
+.email{
+    width: 280px;
+    height: 25px;
+    background: url(images/email.png) left center no-repeat;
+    padding: 0 20px;
+    padding-top: 3px;
+}
+.email a {
+        font-family: "Roboto-Light";
+    font-size: 15px;
+    color: green;
+    text-decoration: underline;
+}
+.footer-help{
+    height: 255px;
+    margin-top: 30px;
+    background: white;
+       font-family: "Roboto-Light";
+    font-size: 15px;
+    padding: 30px;
+}
+.footer-help input{
+    width: 175px;
+    height: 30px;
+    border: 1px solid #c7ac7f;
+    border-radius: 20px;
+    background: white;
+}
+.logo-footer{
+    background: url(images/footer-logo.png) left center no-repeat;
+     margin: 20px 0;
+    width: 175px;
+    height: 34px;
+}
+.logo-footer p{
+    font-family: "Roboto-Light";
+    font-size: 14px;
+   position: relative;
+    top: 7px;
+    left:40px;
+ color:#95a5a6;
+}
+.item-cont-footer{
+    display: inline-block;
+    position: relative;
+    left: 230px;
+   
+}
+.bottom-footer{
+    display: flex;
+}
+.item1-g{
+    width: 114px;
+    height: 35px;
+
+margin: 0 5px;
+  
+}
+iframe{
+    margin: 0 auto;
+}
+.modal-header h2{
+         font-family: 'Cormorant Unicase', serif;
+    font-size: 35px;
+    text-align: center;
+}
+#modal-1 .modal-header{
+    height: 150px;
+    padding: 50px;
+}
+.bank{
+    height: 235px;
+}
+.bank h3{
+        font-family: 'Cormorant Unicase', serif;
+    font-size: 24px;
+        color: #c7ac7f;
+    text-align: center;
+}
+.bank h6{
+     font-family: "Roboto-Medium";
+    font-size: 16px;
+    text-align: center;
+}
+.bank p{
+     font-family: "Roboto-Light";
+        font-size: 15px;
+    text-align: center;
+}
+.bank:hover{
+   box-shadow: 4px 0 10px rgba(0,0,0,0.3);
+}
+.modal-footer{
+     font-family: 'Cormorant Unicase', serif;
+    font-size: 20px;
+    text-align: center;
+}
+.modal-header img{
+    position: relative;
+    left: 80px;
+    bottom: 47px;
+}
+#modal-2 .modal-body{
+    height: 115px;
+}
+
+#modal-2 .modal-header img{
+    position: relative;
+    left: 45px;
+    bottom: 11px;
+}
+#modal-video-1 .modal-body,#modal-video-2 .modal-body,#modal-video-3 .modal-body{
+    height: 445px;
+    padding: 0;
+}
+#modal-video-1 .modal-header,#modal-video-2 .modal-header,#modal-video-3 .modal-header{
+    display: none;
+}
+.navtop .row, .navtop .container{
+    height: inherit;
+}
+.navbar-sm-my{
+    display: none;
+    background: white;
+ 
+}
+.logo-sm{
+     background: url("images/logo-scroll.png") bottom center no-repeat;
+   display: inline-block;
+    width: 200px;
+    height: 40px;
+}
+.drop-my{ 
+    padding: 10px 0;
+}
+.dropdown-menu-sm{
+    height: 960px;
+    width: 100%;
+    margin-top: 40px;
+    display: none;
+    background: white;
+    position: absolute;
+     z-index: 999;
+    
+}
+.dropdown-menu-sm .sm-subscribe{
+    height: 232px;
+    background: #f1f3f3;
+    width: 750px;
+    margin: 0 auto;
+}
+.sm-subscribe .podii{
+  
+       font-family: 'Cormorant Unicase', serif;
+    font-size: 20px;
+    height: 40px;
+    padding: 40px;
+    text-align: center;
+    
+}
+.area-sm{
+    position: relative;
+padding: 0 70px;
+  
+}
+.area-sm #area{
+    border-color: #c7ac7f;
+}
+.sm-but{
+   padding: 10px 40%;
+    position: relative;
+    top: 40px;
+}
+.sm-but button{
+  
+    width: 155px;
+    height: 40px;
+    background: rgba(0,0,0,0);
+        border-radius:20px;
+    border-color:#c7ac7f;
+    color:#494949;
+}
+.menu-sm-item{
+    height: 75px;
+    text-align: center;
+   padding: 20px;
+}
+.menu-sm-item>.navitem{
+     color: #494949;
+}
+
+.bg {
+	position:absolute; 
+	top: 0;
+	left: 0;
+	right: 0; 
+	bottom: 0; 
+	background: url("images/image_for_subscribe.jpg") center center no-repeat ;
+	opacity: 0.8; 
+	background-size:cover;
+}
+
+.area input[type="submit"], .new button[type="button"] {
+	width: 180px;
+}
+
+.first { 
+height: 130px; 
+font-family: 'Cormorant Unicase', serif; 
+text-align: center;
+} 
+.first h1{ 
+height: 130px; 
+font-family: 'Cormorant Unicase', serif; 
+font-size: 35px; 
+text-align: center; 
+} 
+.alboms{ 
+height: 45px; 
+display: flex; 
+text-align: center; 
+padding: 12px 0; 
+width: 440px; 
+margin: 0 auto; 
+justify-content: space-between; 
+text-decoration: none; 
+font-family: "Roboto-Medium"; 
+font-size: 16px; 
+
+} 
+#internal{
+    display:flex;
+}
+/*.tab-content {
+    display: none;
+    z-index:9999;
+}*/
+.alboms a{ 
+display: flex; 
+color: #000000; 
+text-align: center; 
+text-decoration: none; 
+font-family: "Roboto-Medium"; 
+font-size: 16px; 
+} 
+.alboms a:hover{ 
+color: #c7ac7f; 
+} 
+.album-title{ 
+background-color: #f1f3f3; 
+height: 300px; 
+
+} 
+.album{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#internal{
+    display:flex;
+    z-index:9999;
+}
+.album-img{
+   flex-basis: 55px;
+   padding-left:20px;
+
+    box-shadow: 10px 20px 40px rgba(0,0,0,0.3);
+}
+.hochu{
+    border-radius:20px;
+    border-color:#c7ac7f;
+    color:#494949;
+
+}
+.det{
+    margin-top:-50px;
+}
+.album-desc{
+    padding-top:25px;
+}
+.dropdown-menu-sm.open{
+    display: block;
+}
+.dropdown-menu-sm .linea{
+    width: 750px;
+    margin: 0 auto;
+}
+.menu-sm-item{
+    font-family: 'Cormorant Unicase', serif;
+  font-size: 30px;
+    text-align: center;
+    color: #494949;
+}
+.lang{
+    width: 100%;
+    height: 40px;
+
+        padding: 0px 15px;
+    margin: 0 15px;
+}
+.navbar-sm-my>.col-sm-6{
+    padding: 0 !important;
+}
+.ondrop img{
+    float: right;
+    padding-right: 15px;
+}
+.languige{
+    display: flex;
+padding-right: 15px;
+  justify-content: flex-start;
+}
+.languige a{
+  font-family: "Roboto-Light";
+    font-size: 12px;
+padding: 8px;
+    color: #57a008;
+    text-decoration: underline;
+}
+.languige a:hover{
+    color: #c7ac7f;
+    border: 1px solid #c7ac7f;
+    border-radius: 5px;
+}
+.lang .liked{
+    padding: 5px 0;
+    padding-left: 15px;
+    margin: 0;
+}
+.sm-xs{
+    display: none;
+}
+.carousel .item{
+    
+  text-align: center;
+  height: 670px !important;
+}
+.firstslide{
+    background-image: url("images/image_for_slider_1_lg-md.jpg");    
+}
+.secondslide{
+    background-image: url("images/image_for_slider_2_lg-md.jpg");    
+}
+.thirdslide{
+    background-image: url("images/image_for_slider_3_lg-md.jpg");    
+}
+
+@media (min-width:480px) and (max-width:768px){
+    .new{
+        display: none;
+    } 
+    .navbar-sm-my{
+       display: inline-flex;
+        justify-content: space-between;
+        position: fixed;
+        z-index: 999;
+          max-width: 320px;
+        padding: 0;
+        margin: 0 auto;
+      
+    }
+    .dropdown-menu-sm{
+        max-width: 320px;
+        max-height: 480px;
+    }
+     .rozklad>a{
+       display: none;
+    }
+    
+    .navbar-fixed-top{
+        display: none;
+    }
+    .carousel-inner{
+        max-height: 480px;
+        width: 320px;
+    }
+    .firstslide .video{
+        left: 20px;
+    }
+    .conc-item *{
+        padding: 0;
+        margin: 0;
+    }
+    .conc-item .month{
+        margin: 10px 123px;
+    }
+    .conc-item .geo{
+        margin: 5px 130px;
+    }
+    .conc-item .event{
+        margin: 5px 60px;
+        max-width: 280px;
+    }
+    .event p{
+        text-align: center;
+    }
+    .details{
+            padding: 13px 0 !important;
+        margin: 15px 120px;
+    }
+    .conc{
+        max-height: 960px;
+    }
+    .rozklad h2{
+     max-width: 165px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 25px;
+    }
+    .header-player {
+        display:none;
+    }
+    .alboms{
+        display:none;
+    }
+    .menu-sm-item{
+
+        display:none;
+    
+    }
+    #internal{
+
+        display:none;
+    
+    }
+    .play{
+        position: relative;
+        top:400px;
+        max-height: 1350px;
+    }
+    .all>a{
+        display: none;
+    }
+    footer{
+          position: relative;
+        top:490px;
+    }
+    .manage-country{
+        padding: 0 100px;
+        text-align: center;
+    }
+    .photo{
+        width: 290px !important;
+        height: 180px;
+        margin: auto;
+    }
+    .desc{
+        margin: 0;
+        max-width: 290px;
+        max-height: 335px;
+    }
+    .date{
+        padding: 10px 0;
+        width:290px; 
+        margin: 0 35px;
+    }
+    .content-name ,.content-desc{
+        width: 290px;
+          margin: 0 35px;
+        text-align: center;
+    }
+    .manage{
+        position: relative;
+        top: 190px;
+        height: 920px;
+    }
+    .items{
+        max-width: 160px;
+display: flex;
+        height: 130px;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        right: 40px;
+        
+    }
+    .logo-footer{
+        position: relative;
+        top: 180px;
+        left: 70px;
+    }
+    .googleplay{
+        position: relative;
+left: 2px;
+    }
+    .item1-g{
+        margin: 11px 5px;
+    }
+    .item1{
+        margin: 5px 5px;
+    }
+    .bottom-footer{
+            position: relative;
+        top: 190px;
+
+    }
+    .item-cont-footer{
+        left: 15px;
+        bottom: 20px;
+    }
+    .footer-help{
+        text-align: center;
+    }
+    .footer-help h4{
+        margin: 20px 0;
+    }
+    .footer-help p{
+        margin: 20px 0;
+    }
+    .hash{
+        margin: 0px 100px;
+        display: flex;
+    }
+    
+    .content-live{
+         flex-direction:column;
+        height: 650px;
+        justify-content: center !important;
+    }
+    .linea{
+        max-width: 320px;
+    }
+    .large{
+        max-width: 320px;
+    }
+    #myCarousel3{
+           max-height: 480px;
+        width: 320px;
+    }
+    .text>h1,.text>h3{
+        display: none;
+    }
+      .carousel .item{
+    
+  text-align: center;
+  height: 450px !important;
+          
+}
+    .conc-item{
+        height: 170px;
+    }
+      .firstslide{
+    background-image: url("images/image_for_slider_1_sm-xs.jpg") center bottom no-repeat;    
+          background-size:contain;
+  
+}
+.secondslide{
+    background-image: url("images/image_for_slider_2_sm-xs.jpg") center bottom no-repeat;    
+    background-size:cover;
+}
+.thirdslide{
+    background-image: url("images/image_for_slider_3_sm-xs.jpg") center bottom no-repeat;   
+    background-size:cover;
+}
+}
+@media (min-width:768px) and (max-width:992px){
+    .navbar-sm-my{
+       display: inline-flex;
+        justify-content: space-between;
+        position: fixed;
+        z-index: 999;
+          max-width: 750px;
+        padding: 0;
+        margin: 0 auto;
+        left: 15px;
+    }
+    .help{
+        width: 375px;
+    }
+    .news{
+        width:375px;
+    }
+    .news>.headn{
+        left: 40px;
+        top:100px;
+    }
+     .help>.headn{
+        left: 40px;
+        top:100px;
+         width: 310px;
+    }
+    .news>.area{
+        left: 40px;
+    }
+    .new button[type="button"]{
+    position: relative;
+    left: 40px;
+        top: 110px;}
+    .help button[type="button"]{
+    position: relative;
+    left: 40px;
+        top: 70px;}
+    .news input[type="text"]{
+    
+        width: 310px !important;
+    }
+    .conc-item{
+        height: 100px;
+    }
+    .month{
+        padding: 35px 0;
+    }
+    .geo{
+        padding: 40px 0;
+    }
+    .event{
+        padding: 35px 0;
+    }
+    .details{
+        padding: 25px 0;
+    }
+   .firstslide{
+    background-image: url("images/image_for_slider_1_sm-xs.jpg");    
+       height:1000px !important;
+}
+.secondslide{
+     background-image: url"images/image_for_slider_2_sm-xs.jpg");    
+    height:1000px !important;
+}
+.thirdslide{
+    background-image: url("images/image_for_slider_3_sm-xs.jpg");   
+    height:1000px !important;
+}
+    .carousel .item{
+    
+  text-align: center;
+  height: 1000px !important;
+}
+    .text{
+          position: absolute;
+    top: 400px;
+    text-align: center;
+    left: 30px;
+font-family: 'Cormorant Unicase', serif;
+    color: white;
+    margin: 0 auto;
+    }
+    .secondslide .text{
+        left: 100px;
+    }
+      .rozklad>a{
+       display: none !important;
+    }
+    .all>a{
+        display: none !important;
+    }
+    .photo{
+        width: 480px !important;
+        height: 300px;
+        margin: auto;
+    }
+    .desc{
+        margin: 0;
+    }
+    .date{
+        padding: 10px 170px;
+        width:480px; 
+        margin: 0 75px;
+    }
+    .content-name ,.content-desc{
+        width: 480px;
+          margin: 0 75px;
+        text-align: center;
+    }
+    .manage{
+        position: relative;
+        top: 190px;
+        height: 550px;
+    }
+    .bottom-footer{
+            position: relative;
+        top: 190px;
+
+    }
+    .item-cont-footer{
+        left: 15px;
+        bottom: 20px;
+    }
+    .footer-help{
+        text-align: center;
+    }
+    .footer-help h4{
+        margin: 20px 0;
+    }
+    .footer-help p{
+        margin: 20px 0;
+    }
+    .hash{
+        margin: 20px 215px;
+    }
+    
+    .content-live{
+         flex-direction:column;
+        height: 650px;
+        justify-content: center !important;
+    }
+    .conc .linea{
+        width: 750px;
+       margin: 0 15px;
+    }
+    .bg{
+        background: url("images/image_for_subscribe.jpg") center center no-repeat !important;
+        background-size: cover !important;
+        height: 355px;
+        width: 750px;
+    }
+  
+    .large{
+        width: 750px;
+         margin: 0 15px;
+    }
+    .navbar-fixed-top{
+        display: none;
+    }
+
+}
+@media (min-width:992px){
+    .navbar-sm-my{
+        display: none;
+    }
+  
+    .large{
+        width:970px;
+        margin: 0 auto;
+    }
+    .navbar-fixed-top{
+        display: block;
+    }
+   
+}
+@media (min-width:1280px){
+    .large{
+        width:1280px;
+    margin: 0 auto;
+    }
+    .firstslide .text{
+        top: 250px;
+           left: 300px;
+    }
+    .secondslide .text{
+         top: 280px;
+          left: 350px;
+    }
+    .thirdslide .text{
+          top: 280px;
+          left: 200px;
+    }
+}
+  
+}
+@media (min-width:1800px){
+       .rozklad>a{
+        left: 1500px;
+    }
+}
+/*<!-- <div class="alboms nav nav-tabs" role="tablist"> 
+    <div role="presentation" class="menu-sm-item" > 
+
+<script>
+    tracksE2[3] = [
+                    ["На глибині (In the Depth)", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/На глибині (In the Depth)"]
+                ];
+</script>
+
+<a class='navitem' href="#" onclick = "albumSwitch(3, tracksE2); return false;" role="tab" data-toggle="tab">In The Depth</a></div> 
+<div role="presentation" class="menu-sm-item active">
+<script>
+    tracksE2[0] =  [
+                    ["Intro", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/Intro"],
+                     ["Where Should I Go", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/Where Should I Go"],
+                     ["Bala", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/Bala"],
+                     ["Lonely Night", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/Lonely Night"],
+                     ["War - Part - I", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/War - Part - I"],
+                     ["Inside - Part - II", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/Inside - Part - II"],
+                     ["Inspiration - Part - III", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/Inspiration - Part - III"],
+                     ["Life - Part - IV", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/Life - Part - IV"],
+                     ["Voice of the Wind", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/Voice of the Wind"],
+                     ["Fly Away", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/Fly Away"],
+                     ["Viva", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/Viva"]
+                    ];
+
+</script>
+<a class='navitem' href="#" onclick = "albumSwitch(0, tracksE2); return false;"  role="tab" data-toggle="tab">Internal</a> </div> 
+<div role="presentation" class="menu-sm-item" >
+<script>    
+tracksE2[1] = [
+                    ["In...", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/In..."],
+                    ["Нескінченна історія", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/Neskinchenna_istorija"],
+                    ["Інший світ", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/Inshij_svit"],
+                    ["Шепіт", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/Shepit"],
+                    ["Квітка і вітер", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/Kvitka_i_viter"],
+                    ["Козак", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/Kozak"],
+                    ["Гуцул", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/Guzul"],
+                    ["Кожен крок...", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/Kozhen_krok"],
+                    ["Namaste", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/Namaste"]
+                ];
+
+</script>
+<a class='navitem' href="#" onclick = "albumSwitch(1, tracksE2); return false;" role="tab" data-toggle="tab">Integro</a> </div> 
+<div role="presentation" class="menu-sm-item" > 
+<script>
+tracksE2[2] = [
+                ["Nama Om", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/Nama Om"],
+                ["Syamakunda Radhakunda", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/Syamakunda Radhakunda"],
+                ["Radharani Syamasundar", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/Radharani Syamasundar"],
+                ["Samsara", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/Samsara"],
+                ["Sri-Guru", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/Sri-Guru"],
+                ["...forgotten love (ukrainian version)", "<?php bloginfo('url')?>/wp-content/themes/...forgotten love (ukrainian version)"],
+                ["Gopala", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/Gopala"],
+                ["...forgotten love", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/...forgotten love"],
+                ["Gouranga", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/Gouranga"],
+                ["Brahma-Samhita", "<?php bloginfo('url')?>/wp-content/themes/atmasfera/audio/Brahma-Samhita"]
+            ];
+</script>
+<a class='navitem' href="#" onclick = "albumSwitch(2, tracksE2); return false;" role="tab" data-toggle="tab">Forgotten Love</a> </div></div> 
+</div>
+<div class="large">
+<div class="tab-content"> 
+<div role="tabpanel" class="tab-pane" id="inthedepth"><div class="album-img"></div><div class="album-desc"></div></div> 
+
+<div role="tabpanel" class="tab-pane active" id="internal">    
+    <div class="album-img">
+        <img src="<?php bloginfo('url')?>/wp-content/themes/atmasfera/images/album2.png">
+    </div>
+    <div class="album-desc col-lg-4 col-lg-offset-2"><br><br><p>Феномен української музики гурт AtmAsfera випустили третій студійний альбом, який отримав назву «Internal» у 2о12 році. Як і раніше, перед нами якісний world music, адже альбом об'єднав музичну культуру різних народів світу, а музика включає деталі фолку різних країн.</p><a href="https://www.amazon.com/Internal-Atmasfera/dp/B013LUOBSM/ref=sr_1_3?ie=UTF8&qid=1489429389&sr=8-3&keywords=atmasfera"><button type="button" class="btn btn-succes hochu" data-toggle='modal' data-target="#modal-1">ХОЧУ ПРИДБАТИ</button></a>
+    <div class="all det col-md-8 col-lg-5 col-lg-offset-4"><a href="#">Детальніше</a></div>
+</div> 
+
+<div role="tabpanel" class="tab-pane" id="integro">
+    <!-- div class="album-img">
+        <img src="<?php bloginfo('url')?>/wp-content/themes/atmasfera/images/album3.png">
+    </div>
+    <div class="album-desc col-lg-4 col-lg-offset-4"><p>Другий альбом був записаний в Києві, на White Studio і виданий у 2011 році. Зведення та мастеринг знову робив Юрій Лич. У ньому переважають драйвові пісні, і сама музика стала більш динамічною - це його головна відмінність.. Але навіть зі зміною форми суть залишилася колишньою.</p><a href="https://www.amazon.com/Integro-Atmasfera/dp/B013W763XU/ref=sr_1_5?ie=UTF8&qid=1489429389&sr=8-5&keywords=atmasfera"><button type="button" class="btn btn-succes hochu" data-toggle='modal' data-target="#modal-1">ХОЧУ ПРИДБАТИ</button></a>
+    <div class="all det col-md-8 col-lg-5 col-lg-offset-4"><a href="#">Детальніше</a></div> 
+</div>  
+
+<div role="tabpanel" class="tab-pane" id="forgotten"><div class="album-img"></div><div class="album-desc"></div></div> 
+</div> 
+</div> -->
+         */

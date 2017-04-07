@@ -1,0 +1,392 @@
+@media (min-width:480px) and (max-width:768px){
+    .new{
+        display: none;
+    } 
+    .navbar-sm-my{
+       display: inline-flex;
+        justify-content: space-between;
+        position: fixed;
+        z-index: 999;
+          max-width: 320px;
+        padding: 0;
+        margin: 0 auto;
+      
+    }
+    .dropdown-menu-sm{
+        max-width: 320px;
+        max-height: 480px;
+    }
+     .rozklad>a{
+       display: none;
+    }
+    
+    .navbar-fixed-top{
+        display: none;
+    }
+    .carousel-inner{
+        max-height: 480px;
+        width: 320px;
+    }
+    .firstslide .video{
+        left: 20px;
+    }
+    .conc-item *{
+        padding: 0;
+        margin: 0;
+    }
+    .conc-item .month{
+        margin: 10px 123px;
+    }
+    .conc-item .geo{
+        margin: 5px 130px;
+    }
+    .conc-item .event{
+        margin: 5px 60px;
+        max-width: 280px;
+    }
+    .event p{
+        text-align: center;
+    }
+    .details{
+            padding: 13px 0 !important;
+        margin: 15px 120px;
+    }
+    .conc{
+        max-height: 960px;
+    }
+    .rozklad h2{
+     max-width: 165px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 25px;
+    }
+    .play{
+        position: relative;
+        top:400px;
+        max-height: 1350px;
+    }
+    .all>a{
+        display: none;
+    }
+    footer{
+          position: relative;
+        top:490px;
+    }
+    .manage-country{
+        padding: 0 100px;
+        text-align: center;
+    }
+    .photo{
+        width: 290px !important;
+        height: 180px;
+        margin: auto;
+    }
+    .desc{
+        margin: 0;
+        max-width: 290px;
+        max-height: 335px;
+    }
+    .date{
+        padding: 10px 0;
+        width:290px; 
+        margin: 0 35px;
+    }
+    .content-name ,.content-desc{
+        width: 290px;
+          margin: 0 35px;
+        text-align: center;
+    }
+    .manage{
+        position: relative;
+        top: 190px;
+        height: 920px;
+    }
+    .items{
+        max-width: 160px;
+display: flex;
+        height: 130px;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        right: 40px;
+        
+    }
+    .logo-footer{
+        position: relative;
+        top: 180px;
+        left: 70px;
+    }
+    .googleplay{
+        position: relative;
+left: 2px;
+    }
+    .item1-g{
+        margin: 11px 5px;
+    }
+    .item1{
+        margin: 5px 5px;
+    }
+    .bottom-footer{
+            position: relative;
+        top: 190px;
+
+    }
+    .item-cont-footer{
+        left: 15px;
+        bottom: 20px;
+    }
+    .footer-help{
+        text-align: center;
+    }
+    .footer-help h4{
+        margin: 20px 0;
+    }
+    .footer-help p{
+        margin: 20px 0;
+    }
+    .hash{
+        margin: 0px 100px;
+        display: flex;
+    }
+    
+    .content-live{
+         flex-direction:column;
+        height: 650px;
+        justify-content: center !important;
+    }
+    .linea{
+        max-width: 320px;
+    }
+    .large{
+        max-width: 320px;
+    }
+    #myCarousel3{
+           max-height: 480px;
+        width: 320px;
+    }
+    .text>h1,.text>h3{
+        display: none;
+    }
+      .carousel .item{
+	
+  text-align: center;
+  height: 450px !important;
+          
+}
+    .conc-item{
+        height: 170px;
+    }
+      .firstslide{
+    background-image: url(/images/image_for_slider_1_sm-xs.jpg) center bottom no-repeat;    
+          background-size:contain;
+  
+}
+.secondslide{
+    background-image: url(/images/image_for_slider_2_sm-xs.jpg) center bottom no-repeat;    
+    background-size:cover;
+}
+.thirdslide{
+    background-image: url(/images/image_for_slider_3_sm-xs.jpg) center bottom no-repeat;   
+    background-size:cover;
+}
+}
+@media (min-width:768px) and (max-width:992px){
+    .navbar-sm-my{
+       display: inline-flex;
+        justify-content: space-between;
+        position: fixed;
+        z-index: 999;
+          max-width: 750px;
+        padding: 0;
+        margin: 0 auto;
+        left: 15px;
+    }
+    .help{
+        width: 375px;
+    }
+    .news{
+        width:375px;
+    }
+    .news>.headn{
+        left: 40px;
+        top:100px;
+    }
+     .help>.headn{
+        left: 40px;
+        top:100px;
+         width: 310px;
+    }
+    .news>.area{
+        left: 40px;
+    }
+    .new button[type="button"]{
+    position: relative;
+    left: 40px;
+        top: 110px;}
+    .help button[type="button"]{
+    position: relative;
+    left: 40px;
+        top: 70px;}
+    .news input[type="text"]{
+    
+        width: 310px !important;
+    }
+    .conc-item{
+        height: 100px;
+    }
+    .month{
+        padding: 35px 0;
+    }
+    .geo{
+        padding: 40px 0;
+    }
+    .event{
+        padding: 35px 0;
+    }
+    .details{
+        padding: 25px 0;
+    }
+   .firstslide{
+    background-image: url(/images/image_for_slider_1_sm-xs.jpg);    
+       height:1000px !important;
+}
+.secondslide{
+    background-image: url(/images/image_for_slider_2_sm-xs.jpg);    
+    height:1000px !important;
+}
+.thirdslide{
+    background-image: url(/images/image_for_slider_3_sm-xs.jpg);   
+    height:1000px !important;
+}
+    .carousel .item{
+	
+  text-align: center;
+  height: 1000px !important;
+}
+    .text{
+          position: absolute;
+    top: 400px;
+    text-align: center;
+    left: 30px;
+font-family: 'Cormorant Unicase', serif;
+    color: white;
+    margin: 0 auto;
+    }
+    .secondslide .text{
+        left: 100px;
+    }
+      .rozklad>a{
+       display: none !important;
+    }
+    .all>a{
+        display: none !important;
+    }
+    .photo{
+        width: 480px !important;
+        height: 300px;
+        margin: auto;
+    }
+    .desc{
+        margin: 0;
+    }
+    .date{
+        padding: 10px 170px;
+        width:480px; 
+        margin: 0 75px;
+    }
+    .content-name ,.content-desc{
+        width: 480px;
+          margin: 0 75px;
+        text-align: center;
+    }
+    .manage{
+        position: relative;
+        top: 190px;
+        height: 550px;
+    }
+    .bottom-footer{
+            position: relative;
+        top: 190px;
+      
+    }
+    .item-cont-footer{
+        left: 15px;
+        bottom: 20px;
+    }
+    .footer-help{
+        text-align: center;
+    }
+    .footer-help h4{
+        margin: 20px 0;
+    }
+    .footer-help p{
+        margin: 20px 0;
+    }
+    .hash{
+        margin: 20px 215px;
+    }
+    
+    .content-live{
+         flex-direction:column;
+        height: 650px;
+        justify-content: center !important;
+    }
+    .conc .linea{
+        width: 750px;
+       margin: 0 15px;
+    }
+    .bg{
+        background: url(/images/image_for_subscribe.jpg) center center no-repeat !important;
+        background-size: cover !important;
+        height: 355px;
+        width: 750px;
+    }
+  
+    .large{
+        width: 750px;
+         margin: 0 15px;
+    }
+    .navbar-fixed-top{
+        display: none;
+    }
+
+}
+@media (min-width:992px){
+    .navbar-sm-my{
+        display: none;
+    }
+  
+    .large{
+        width:970px;
+        margin: 0 auto;
+    }
+    .navbar-fixed-top{
+        display: block;
+    }
+   
+}
+@media (min-width:1280px){
+    .large{
+        width:1280px;
+    margin: 0 auto;
+    }
+    .firstslide .text{
+        top: 250px;
+           left: 300px;
+    }
+    .secondslide .text{
+         top: 280px;
+          left: 350px;
+    }
+    .thirdslide .text{
+          top: 280px;
+          left: 200px;
+    }
+}
+  
+}
+@media (min-width:1800px){
+       .rozklad>a{
+        left: 1500px;
+    }
+}

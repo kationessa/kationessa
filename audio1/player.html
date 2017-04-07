@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="player.css" rel="stylesheet">
+<script src="list.js"></script>
+<link href="../audio/bootstrap/css/bootstrap.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cormorant" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<div class="audio-player">
+<div id = "trackbox" class="col-md-4">
+
+</div>
+<div class = "pl col-md-8" style="padding: 0">
+<div class="col-md-12">
+<h5>Ви слухаєте трек:</h5>
+<h3 id="playlist_status">Where Shoud I Go</h3>
+</div>
+<div id="audio_player col-md-12">
+
+<div id="timebox" class=" col-md-4">
+<input id="seekslider" type="range" min="0" max="100" value="0" step="1">
+<span id="curtimetext">00:00</span> / <span id="durtimetext">00:00</span>
+</div>
+
+
+<div class="audio_controls col-md-12"> 
+<button id="playpausebtn"></button>
+<button id="playbackbtn"></button>
+<button id="playnextbtn"></button> 
+<button id="mutebtn"></button> 
+<button id="playreversebtn"></button> 
+</div>
+<div id="vol" class="col-md-12">
+<input id="volumeslider" type="range" min="0" max="100" value="100" step="1">
+</div> 
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
